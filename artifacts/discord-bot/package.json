@@ -1,0 +1,13 @@
+{
+  "name": "@workspace/discord-bot",
+  "version": "1.0.0",
+  "description": "Miyu Bot - Discord bot by Pham Van Nhat (Akahime)",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
